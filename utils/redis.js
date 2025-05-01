@@ -146,7 +146,7 @@ const processSubtitleJob = async (job) => {
         .replace("uploads", "unconfirmed");
       newPath = path.join(
         directoryPath,
-        `${video.id}/${video.unconfirmed_file_path}`
+        `${video.unconfirmed_file_path}`
       );
       finalInputPath = newPath;
     }
