@@ -1,0 +1,13 @@
+node_modules/
+
+# Logs
+logs/
+
+# .env
+
+# OS-specific
+.DS_Store
+
+# media files
+media/uploads/
+media/uunconfirmed/
